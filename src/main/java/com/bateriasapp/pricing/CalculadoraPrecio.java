@@ -1,8 +1,10 @@
 package com.bateriasapp.pricing;
 
+import org.springframework.stereotype.Service;
+
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
+@Service
 public class CalculadoraPrecio {
 
     public static final BigDecimal DESCUENTO_BATERIA_USADA = BigDecimal.valueOf(30_000);
